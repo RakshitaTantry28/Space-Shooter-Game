@@ -1,0 +1,72 @@
+body {
+    background-image: url('space.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-color: #cccccc;
+}
+    
+    div.left {
+    width: 14%;
+    padding: 0 0 0 5%;
+    float: left}
+    
+    div.content {
+    width: 20%;
+    padding: 0 5%;
+    float: left}
+    
+    div.right {
+    width: 20%;
+    padding: 0 5% 0 0;
+    float: left}
+
+    div.button {
+        position: absolute;
+        top: 99%;
+        left: 96%;
+        width: 150px;
+        height: 25px;
+        margin: -50px 0 0 -150px;
+        font-size: 19px;
+        text-align: center;
+        border-radius: 8px;
+        text-decoration: none;
+        background-color: Transparent;
+        transition-duration: 0.4s; 
+        border: 2px solid rgb(202, 25, 238);
+        color:white;
+        cursor: pointer;
+     }
+    
+     div.button:hover {
+        color: #000;
+        background-color: #8d47ff;
+        box-shadow: 0px 0px 40px 05px #8d47ff;
+      }
+      
+      div.button2 {
+        position: absolute;
+        top: 99%;
+        left: 15%;
+        width: 150px;
+        height: 25px;
+        margin: -50px 0 0 -150px;
+        font-size: 19px;
+        text-align: center;
+        border-radius: 8px;
+        text-decoration: none;
+        background-color: Transparent;
+        transition-duration: 0.4s; 
+        border: 2px solid rgb(202, 25, 238);
+        color:white;
+        cursor: pointer;
+     }
+    
+     div.button2:hover {
+        color: #000;
+        background-color: #8d47ff;
+        box-shadow: 0px 0px 40px 05px #8d47ff;
+      }
+      
+      
